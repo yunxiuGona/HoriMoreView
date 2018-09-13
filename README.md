@@ -37,15 +37,17 @@ hmv.setDragListener(this);
             }
         });
 ```
-getCount():Just like "getItemCount" in RecyclerView,get item count of data list.
-getView():Just like "onCreateViewHolder" in RecyclerView,should return id of layout.
-bindView():Just like "onBindViewHolder" in RecyclerView,do something just you like.
+* getCount():Just like "getItemCount" in RecyclerView,get item count of data list.<br>
+* getView():Just like "onCreateViewHolder" in RecyclerView,should return id of layout.<br>
+* bindView():Just like "onBindViewHolder" in RecyclerView,do something just you like.<br>
 
-##setDragListener(DragListener dragListener);
+setDragListener(DragListener dragListener);
+-------
 when:More View has Released
 else:the more view wonnot show when draging if set null or havenot setted
 
-##setFooterDrawer(BaseFooterDrawer footerDrawer)
+setFooterDrawer(BaseFooterDrawer footerDrawer)
+-------
 can set the drawer for footer
 ```java
 hvm.setFooterDrawer(new BezierFooterDrawer.Builder(context,
