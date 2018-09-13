@@ -17,25 +17,24 @@ for use <br>
 ```java
 HoriMoreView hmv;
 hmv.setDragListener(this);
-        hmv.setHoriMoreViewDelegate(new HRecyclerView.HoriMoreViewDelegate() {
-            @Override
-            public int getCount() {
-                return 6;
-            }
-
-            @Override
-            public int getView(@NonNull ViewGroup parent, int position) {
-                if(position==5) {
-                    return R.layout.adp_rv1;
-                }else{
-                    return R.layout.adp_rv2;
-                }
-            }
-            @Override
-            public void bindView(View view, int position) {
-                //view.setText  view.setOnClickListener  view.setVisivle  etc...
-            }
-        });
+hmv.setHoriMoreViewDelegate(new HRecyclerView.HoriMoreViewDelegate() {
+    @Override
+    public int getCount() {
+        return 6;
+    }
+    @Override
+    public int getView(@NonNull ViewGroup parent, int position) {
+        if(position==5) {
+            return R.layout.adp_rv1;
+        }else{
+            return R.layout.adp_rv2;
+        }
+    }
+    @Override
+    public void bindView(View view, int position) {
+        //view.setText  view.setOnClickListener  view.setVisivle  etc...
+    }
+});
 ```
 * getCount():Just like "getItemCount" in RecyclerView,get item count of data list.<br>
 * getView():Just like "onCreateViewHolder" in RecyclerView,should return id of layout.<br>
