@@ -12,6 +12,7 @@ for use <br>
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </com.salterwater.horimoreview.HoriMoreView>
+```
 2、In java code:
 ```java
 HoriMoreView hmv;
@@ -35,7 +36,7 @@ hmv.setDragListener(this);
                 //view.setText  view.setOnClickListener  view.setVisivle  etc...
             }
         });
-
+```
 ##setDragListener(DragListener dragListener);
 when:More View has Released
 else:the more view wonnot show when draging if set null or havenot setted
@@ -53,5 +54,4 @@ hvm.setFooterDrawer(new BezierFooterDrawer.Builder(context,
                 .setNormalString("More")
                 .setEventString("Release")
                 .build());
-      
-      
+```
