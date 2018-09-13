@@ -1,6 +1,6 @@
 # HoriMoreView
 HoriMoreView is an library to easily create hori-list-view
-There Insetted an RecyclerView Inside,so it can support types of holders in it
+There Insetted an RecyclerView Inside,so it can support types of holders in it,And Support to show MoreView when drag the list.
 
 ![image](https://github.com/15563988825/HoriMoreView/blob/master/1.gif)
 
