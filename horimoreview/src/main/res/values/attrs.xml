@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragContainer">
+        <attr name="dc_footer_color" format="color|reference"/>
+        <attr name="dc_reset_animator_duration" format="integer|reference"/>
+        <attr name="dc_drag_damp" format="float|reference"/>
+    </declare-styleable>
+
+</resources>
