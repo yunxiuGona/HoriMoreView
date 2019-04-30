@@ -61,4 +61,4 @@ hvm.setFooterDrawer(new BezierFooterDrawer.Builder(context,
                 .build());
 ```
 
-orkhar-hardwork
+workhar-hardwork
